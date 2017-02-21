@@ -1,2 +1,4 @@
 # Coursera-ML
-Coursera Machine Learning Andrew Ng 
+Coursera 
+Machine Learning 
+Andrew Ng 
