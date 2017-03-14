@@ -208,7 +208,8 @@ Theta2 = reshape(nn_params((1 + (hidden_layer_size * (input_layer_size + 1))):en
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
-
+Theta1
+Theta2
 %% ================= Part 9: Visualize Weights =================
 %  You can now "visualize" what the neural network is learning by 
 %  displaying the hidden units to see what features they are capturing in 
