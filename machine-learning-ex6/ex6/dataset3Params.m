@@ -40,10 +40,8 @@ for i = 1:num,
 end;
 
 [x,y] = find(error_val == min(error_val(:)));
-C = list(x)
-sigma = list(y)
-error_val(3,1)
-error_val(3,2)
+C = list(x);
+sigma = list(y);
 
 % =========================================================================
 
