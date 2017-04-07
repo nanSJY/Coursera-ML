@@ -4,10 +4,10 @@ function hidden_layer_size = modelSelection()
   
   m = size(X,1);
   sel = randperm(m);
-  training_set_X   = X(sel(1:floor(m*0.7)),:);
-  validation_set_X = X(sel(floor(m*0.7)+1:end),:);
-  training_set_y   = y(sel(1:floor(m*0.7)),:);
-  validation_set_y = y(sel(floor(m*0.7)+1:end),:);
+  training_set_X   = X(sel(1:floor(m*0.8)),:);
+  validation_set_X = X(sel(floor(m*0.8)+1:end),:);
+  training_set_y   = y(sel(1:floor(m*0.8)),:);
+  validation_set_y = y(sel(floor(m*0.8)+1:end),:);
   
   hidden_layer_size_list = [21 22 23 24 25 26 27 28 29 30]'; 
   validation_error = zeros(size(hidden_layer_size_list));
